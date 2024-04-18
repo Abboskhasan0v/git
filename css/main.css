@@ -23,6 +23,9 @@ body {
 /* header */
 .header {
     height: 100dvh;
+    flex-direction: column;
+    display: flex;
+    background: cornflowerblue;
 }
 .nav {
     padding: 20px 0;
@@ -41,8 +44,17 @@ body {
 }
 .nav__logo {
     font-size: 36px;
+    color: #fff;
 }
 .nav__link {
     font-size: 20px;
+    color: #fff;
+}
+.header__title {
+    display: grid;
+    place-items: center;
+    flex-grow: 1;
+    font-size: clamp(60px, 5vw, 100px);
+    color: #fff;
 }
 /* header */
